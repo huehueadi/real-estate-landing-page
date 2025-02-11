@@ -15,4 +15,4 @@ const toggleSlice = createSlice({
 export const { toggleValue } = toggleSlice.actions;
 export const selectToggleValue = (state: any) => state.toggle.value;
 
-export default toggleSlice.reducer;
+export default toggleSlice.r
